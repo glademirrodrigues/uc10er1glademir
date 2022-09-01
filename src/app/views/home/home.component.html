@@ -1,0 +1,81 @@
+<p>home works do Glademir!</p>
+<body onload="mostrarpopup()" onload ="renderizarNoticias()">
+    <header>
+        <div class="container-grid posicionamentoheader">
+            <a href=""><img class="logo" src="img/images/logo-site.gif" alt="Logo do Site"></a>
+            <nav id="menu" class="menu">
+                <a href="">gamers</a>
+                <a href="">desktop</a>
+                <a href="">periféricos</a>
+                <a href="">áudio e vídeo</a>
+            </nav>
+            <a href="" id="barras"><img class="barras" src="img/bars-solid.svg" alt="menu-barras"></a>
+        </div>
+    </header>
+    <div id="carrossel" class="carrossel">
+<img src="img/Banner.png" alt="banner 1">
+<img src="img/Banner - Copia 2.png" alt="banner 2">
+    </div>
+    
+    <!-- <div class="banner">
+        <div class="container-grid posicao-texto">
+        <div class="texto-banner">
+        <h1>O melhor da internet</h1>
+        <p>O maior e-commerce do Brasil</p>
+        <a href="">Inscreva-se </a>
+        </div>
+    </div> -->
+    <section class="secao-consoles">      
+        <div class="console container">
+            <a  href=""><img src="img/xboxx.png"></a>
+            <a  href=""><img src="img/ps5.png"></a>
+            <a  href=""><img src="img/swutch.png"></a>
+         
+        </div>
+        <div class="texto-descritivo">
+            <h4>XBox One X</h4>
+            <h4>Play Station 5</h4>
+            <h4>Nintendo Switch</h4>
+        </div>
+</section>
+<footer>
+    <div class="rodape">
+        <div class="linksdosite">
+            <div class="linksredes">
+                <a href=""><img src="img/botoesredes.png"></a>
+                <ul>
+                    <li><a href="#">gamers</a></li>
+                    <li><a href="#">desktops</a></li>
+                    <li><a href="#">periféricos</a></li>
+                    <li><a href="#">áudio e vídeo</a></li>
+                </ul>
+                <div id="epacotexto" class="Textosroda">
+                    <p>It is a long established fact that a reader will be distracted <br> by the readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it has <br> a more-or-less normal distribution</p>
+                    <p>It is a long established fact that a reader will be distracted <br> the readable content of a page when looking <br> its layout. The point of using Lorem Ipsum is that it has <br>a more-or-less normal distribution</p>
+                </div>
+            <!-- </div class="assine"> -->
+            <h2>Receba nossas ofertas</h2>
+            <form action="">
+                <input id="campo-email" type="email" placeholder="E-mail" required>
+                <button onclick="enviaremail">cadastrar</button>
+            </form>
+
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+let menu = document.getElementById("menu");
+
+function mostrarmenu(){
+    if(menu.style.display != "flex"){
+        menu.style.display = "flex"
+    }else{
+        menu.style.display = "none"
+    }
+}
+</script>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    height: 260px
+}
+
+.container-grid{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17pt;
+    }
+.menu{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner{
+    height: 370px;
+    /* background-image: url(../img/Banner.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto-banner{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    font-weight: bold
+}
+.posicao-texto{
+    justify-content: flex-end;
+}
+.texto-banner a {background-color:#ff23ff;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20pt;
+}
+.texto-banner p{margin-bottom: 35px;
+}
+
+#carrossel img{
+    display: none;
+}
+
+.banner-ativo{
+    display: flex;
+}
+
+.secao-consoles{
+    background-color: #ffffff;
+}
+.console{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+.console img{
+    width: none;
+    margin: 50px;
+}
+.texto-descritivo{
+    display: flex;
+    font-size: 55pt;
+    justify-content: space-evenly;
+}
+.barras{
+    width: 30px;
+    display: none;
+}
+.posicionamentoheader{
+    position: relative;
+}
+footer{
+    background-color: #b1ff9f;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+        .rodape{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            align-items: center;
+            }
+            .linksredes a{
+                color: black;
+                text-decoration: none;
+            }
+            .linksredes img{
+                width: 150px;
+            }
+            .Textosroda{
+                display: flex;
+                justify-content: space-between;
+            }
+
+
+
+
+            @media screen and (max-width: 1200px) {
+    .container-grid{
+        width: 90%;
+    }
+    .menu a{
+        font-size: 15px;
+    }
+    .logo{
+        width: 180px;
+    }
+   }
+
+    @media screen and (max-width: 768px) {
+        h1{
+            color: aqua;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        right: 60;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+   
+    .menu-ativo{
+        display: flex;
+
+    }
+}

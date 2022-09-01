@@ -1,0 +1,46 @@
+{
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "id": 2,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "id": 3,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "id": 4,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "id": 5,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "id": 6,
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API"
+    },
+    {
+      "imagem": "",
+      "titulo": "Salve Salve",
+      "descricao": "Hoje o lance é API Teste 2",
+      "id": 7
+    }
+  ]
+}
